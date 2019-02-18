@@ -1,0 +1,38 @@
+{
+"jenkinsParams":{
+					"jenkinsURL": "http://win10t-00238.northamerica.cerner.net:8080/job/",
+					"jenkinsUsername": "analytics",
+					"jenkinsPassword": "cerner"
+				},
+"jiraParams":{
+				"jiraURL": "https://jira2.cerner.com/rest/api/2/issue/",
+				"jiraUsername": "svcblranalytics",
+				"jiraPassword": "BuUjMPm8qZ4q9ry!",
+				"JiraJsonData":	{
+									"fields":	{
+													"project":	{
+																	"key": "RCANALYTIC"
+																},
+													"summary": "",
+													"description": "",
+													"issuetype":{
+																	"name": "Task"
+																},
+													"customfield_14802":["Revenue Cycle HealtheAnalytics Reporting"]
+												}
+								},
+				"attachmentJsonData":	{
+											"fields":	{
+															"attachment": [	{
+																				"filename": "",
+																				"mimeType": "application/text"
+																			}]
+														}
+										},
+				"fileJsonData": 	{
+										"file": "",
+										"comment": "Uploaded automatically.",
+										"minorEdit": "false"
+									}
+			}
+}

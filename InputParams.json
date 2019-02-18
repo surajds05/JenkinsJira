@@ -1,0 +1,41 @@
+{
+"jenkinsParams":{
+					"jenkinsURL": "http://win10t-00238.northamerica.cerner.net:8080/job/",
+					"jenkinsUsername": "analytics",
+					"jenkinsPassword": "cerner"
+				},
+"jiraParams":{
+				"jiraURL": "https://jira2.cerner.com/rest/api/2/issue/",
+				"jiraUsername": "svcblranalytics",
+				"jiraPassword": "BuUjMPm8qZ4q9ry!",
+				"JiraJsonData":	{
+									"fields": {
+												"project": {"key": "RCANALYTIC"},
+												"summary": "Creating an issue via REST - Sample Jira 2",
+												"description": "Creating an issue via REST API",
+												"issuetype": {"name": "Task"},
+												"reporter" : {"name":"SD056953"},
+												"assignee": {"name": "SD056953"},
+												"customfield_14801":["HealtheAnalytics Reporting"], #Solution Detail
+												"customfield_14802": ["Revenue Cycle HealtheAnalytics Reporting"], #JIRA Group
+												"customfield_10703":{"value":"Frequent"},
+												"customfield_10208":{"value":"System"},
+												"customfield_10309":{"value":"Functional"},
+												"customfield_14800":["Revenue Cycle Analytics"]
+												}
+								},
+				"attachmentJsonData":	{
+											"fields":	{
+															"attachment": [	{
+																				"filename": "",
+																				"mimeType": "application/text"
+																			}]
+														}
+										},
+				"fileJsonData": 	{
+										"file": "",
+										"comment": "Uploaded automatically.",
+										"minorEdit": "false"
+									}
+			}
+}
